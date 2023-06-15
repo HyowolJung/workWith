@@ -6,18 +6,14 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
-	<form action="login.do" method="Post"  name="loginForm" onsubmit="return validateForm(this);">
+<body><!-- onsubmit="return validateForm(this);" -->
+	<form action="login.do" name="loginForm" method="post">
 		아이디 : <input type="text" name="userId" required="required" /><br />
 		패스워드 : <input type="password" name="userPw" required="required" /><br />
-		<button type="submit">로그인하기</button>
+		<input type="submit">로그인하기
 	</form>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-	
 
-
-</script>
 </body>
 </html>

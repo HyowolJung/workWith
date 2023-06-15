@@ -1,11 +1,14 @@
 package com.workwith.vo;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Data
-public class userVO {
+@AllArgsConstructor
+@Getter
+@Setter
+public class MemberVO {
 	private String userId;
 	private	String userPw;
 
